@@ -1,0 +1,10 @@
+[Item-Remove-With-Comment]
+match=':[ space]<!-- :[comment] --><item name=":[name]">:[value]</item>:[_\n]'
+rewrite=''
+rule="""
+where match :[name] {
+| "name1" -> true
+| "name3" -> true
+| "name5" -> true
+}
+"""

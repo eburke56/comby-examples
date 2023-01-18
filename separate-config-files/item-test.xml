@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- this is a comment -->
+    <item name="name1">value1</item>
+
+    <!-- this is another comment -->
+    <item name="name2">value2</item>
+
+    <item name="name3">value3</item>
+
+    <item name="name4">value4</item>
+</resources>
